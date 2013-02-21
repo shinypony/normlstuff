@@ -22,5 +22,6 @@ include('http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js', funct
         $.getScript("innoculation.js");
         $.getScript("emotes.js");
         $("#description").load('description.html');;
+        $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'stylesheet.css') );
     });
 });
