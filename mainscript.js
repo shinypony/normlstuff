@@ -19,9 +19,9 @@ function include(filename, onload) {
 
 include('http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js', function() {
     $(document).ready(function() {
-        $.getScript("innoculation.js");
-        $.getScript("emotes.js");
-        $("#description").load('description.html');;
-        $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'stylesheet.css') );
+        $.getScript("https://raw.github.com/shinypony/normlstuff/master/innoculation.js");
+        $.getScript("https://raw.github.com/shinypony/normlstuff/master/emotes.js");
+        $("#description").load('https://raw.github.com/shinypony/normlstuff/master/description.html');;
+        $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://github.com/shinypony/normlstuff/raw/master/stylesheet.css') );
     });
 });
